@@ -47,5 +47,5 @@ Various object detection models are used to detect entities in the load/lift zon
 <b>Fire Detection: </b> Detect fires in case of accidents near the crane to alert the crane operator and other personnel<br>
 | Input | Output |
 |---------|---------|
-| ![](https://github.com/Parth-D3/Crane-Load-Zone-Monitoring/blob/main/output_images/fire.jpg) | ![](https://github.com/Parth-D3/Crane-Load-Zone-Monitoring/blob/main/output_images/detected_fire.jpeg) |
+| ![](https://github.com/Parth-D3/Crane-Load-Zone-Monitoring/blob/main/output_images/fire.jpg) | ![]() |
 
