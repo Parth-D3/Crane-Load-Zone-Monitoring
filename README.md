@@ -15,27 +15,27 @@ These accidents can be avoided with a heightened level of situational awareness.
 
 
 To identify critical objects like construction vehicles, workers, obstacles and other hazards while the load is being carried, we have used a couple of object detection models. In order to understand the relative position of the load being carried and nearby workers, we have used depth estimation, trajectory prediction and Multi-Object Tracking (MOT) algorithms. 
-### Drone to PC video live streaming
+### 📍Drone to PC video live streaming
 For live video streaming between drone and end device like a PC, Gstreamer 1.24.12 is used.<br>
 <ol>
   <li>drone.py: Python implementation with gstreamer pipeline to send video feed to a PC</li>
   <li>PC_receiver.py: Python implementation with gstreamer pipeline to receive video feed from a drone with the help of PC ip address and Port No.</li>
 </ol>
 
-### Depth Estimation
+### 📍Depth Estimation
 We have implemented image processing, person and load identification models to calculate the relative postions of the load being carried and workers. If the worker is close to the load, the image is highlighted in red. Otherwise it is highlighted in green if the worker is at a safe distance.
 
 | Case 1 | Case 2 |
 |---------|---------|
 | ![](https://github.com/Parth-D3/Crane-Load-Zone-Monitoring/blob/main/output_images/mot1.png) | ![](https://github.com/Parth-D3/Crane-Load-Zone-Monitoring/blob/main/output_images/mot2.png) |
 
-### Image Segmentation
+### 📍Image Segmentation
 To identify the load and danger zones (red, yellow, green), image segmentation is used to highlight the load and blur out the surroundings.
 
 ![](https://github.com/Parth-D3/Crane-Load-Zone-Monitoring/blob/main/output_images/img_seg1.png)
 ![](https://github.com/Parth-D3/Crane-Load-Zone-Monitoring/blob/main/output_images/img_seg2.png)
 
-### Object Detection
+### 📍Object Detection
 Various object detection models are used to detect entities in the load/lift zone.
 <br>
 <b>Vehicle Detection: </b> Detect all type of construction vehicles nearby the crane and load being carried.
