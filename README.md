@@ -22,5 +22,15 @@ For live video streaming between drone and end device like a PC, Gstreamer 1.24.
   <li>PC_receiver.py: Python implementation with gstreamer pipeline to receive video feed from a drone with the help of PC ip address and Port No.</li>
 </ol>
 
+### Depth Estimation
+We have implemented image processing, person and load identification models to calculate the relative postions of the load being carried and workers. If the worker is close to the load, the image is highlighted in red. Otherwise it is highlighted in green if the worker is at a safe distance.
+
+| Case 1 | Case 2 |
+|---------|---------|
+| ![](https://github.com/Parth-D3/Crane-Load-Zone-Monitoring/blob/main/output_images/mot1.png) | ![](https://github.com/Parth-D3/Crane-Load-Zone-Monitoring/blob/main/output_images/mot2.png) |
+
 ### Object Detection
-Various object detection models are used to detect entities in the load/lift zone of the 
+Various object detection models are used to detect entities in the load/lift zone.
+<br>
+<b>Vehicle Detection: </b> Detect all type of construction vehicles nearby the crane and load being carried.
+
