@@ -1,4 +1,4 @@
-# Crane-Load-Zone-Monitoring
+# Crane-Load-Zone-Monitoring 🏗️👷‍♂️
 This repository contains files and models for drone video communication, image analysis, object detection, object tracking and depth estimation to be used in crane load zone monitoring.<br>
 The approach is to target the crane lift zone from the video feed to ensure safety and efficiency while the load is being carried. The major accidents that occur in the scenario of a crane carrying a load are:<br>
 <ol>
