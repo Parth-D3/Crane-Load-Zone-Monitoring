@@ -1,11 +1,11 @@
 # Crane-Load-Zone-Monitoring 🏗️👷‍♂️
 This repository contains files and models for drone video communication, image analysis, object detection, object tracking and depth estimation to be used in crane load zone monitoring.<br>
 The approach is to target the crane lift zone from the video feed to ensure safety and efficiency while the load is being carried. The major accidents that occur in the scenario of a crane carrying a load are:<br>
-  <b>🚧Overloading:</b> Overloading stands out as a prevalent factor in crane accidents, occurring when operators surpass the designated weight capacity of the equipment.<br>
-  <b>🚧Dropped Load:</b> Dropped load incidents often occur when a load exceeds weight limits, is improperly secured, or becomes unbalanced during lifting operations.<br>
-  <b>🚧Transportation Incidents:</b> These accidents can occur when a vehicle collides with a crane during transportation or when the crane operator unintentionally runs the machine into a structure, person, vehicle, piece of equipment, or other obstacles. Such incidents highlight the importance of careful manoeuvring and vigilant operation during the transportation of cranes.<br>
-  <b>🚧Crane Workers’ Fall Hazards:</b> Such incidents occur when operators fall from a crane to a lower level, with scenarios including maintenance work on a hoist or crane or unloading materials from an overhead crane. Preventive measures, such as the use of appropriate safety equipment and heightened awareness during tasks performed at elevated heights, are critical to averting accidents involving operators falling from cranes.<br>
-  <b>🚧Crane Striking Incidents:</b> Being struck by the load, boom, or jib represents a significant risk factor in common crane accidents, often leading to serious injuries for workers involved in crane operations.<br>
+  <b>🚧Overloading</b><br> Overloading stands out as a prevalent factor in crane accidents, occurring when operators surpass the designated weight capacity of the equipment.<br><br>
+  <b>🚧Dropped Load</b><br> Dropped load incidents often occur when a load exceeds weight limits, is improperly secured, or becomes unbalanced during lifting operations.<br><br>
+  <b>🚧Transportation Incidents</b><br> These accidents can occur when a vehicle collides with a crane during transportation or when the crane operator unintentionally runs the machine into a structure, person, vehicle, piece of equipment, or other obstacles. Such incidents highlight the importance of careful manoeuvring and vigilant operation during the transportation of cranes.<br><br>
+  <b>🚧Crane Workers’ Fall Hazards</b><br> Such incidents occur when operators fall from a crane to a lower level, with scenarios including maintenance work on a hoist or crane or unloading materials from an overhead crane. Preventive measures, such as the use of appropriate safety equipment and heightened awareness during tasks performed at elevated heights, are critical to averting accidents involving operators falling from cranes.<br><br>
+  <b>🚧Crane Striking Incidents</b><br> Being struck by the load, boom, or jib represents a significant risk factor in common crane accidents, often leading to serious injuries for workers involved in crane operations.<br><br>
 </ol>
 
 These accidents can be avoided with a heightened level of situational awareness.
@@ -41,7 +41,8 @@ Various object detection models are used to detect entities in the load/lift zon
 ![](https://github.com/Parth-D3/Crane-Load-Zone-Monitoring/blob/main/output_images/crane3.png)
 
 <b>Person Detection: </b> Detect workers near the drone, crane and load being carried. <br>
-
+![](https://github.com/Parth-D3/Crane-Load-Zone-Monitoring/blob/main/output_images/person1.jpg)
+![](https://github.com/Parth-D3/Crane-Load-Zone-Monitoring/blob/main/output_images/person2.jpg)
 
 <b>Fire Detection: </b> Detect fires in case of accidents near the crane to alert the crane operator and other personnel<br>
 | Input | Output |
