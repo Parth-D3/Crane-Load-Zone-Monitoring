@@ -1,3 +1,4 @@
 models/ctdet_coco_dla_2x.pth filter=lfs diff=lfs merge=lfs -text
 models/model_last.pth filter=lfs diff=lfs merge=lfs -text
 models/mcmot_last_track_resdcn_18_visdrone.pth filter=lfs diff=lfs merge=lfs -text
+models/person.pt filter=lfs diff=lfs merge=lfs -text
